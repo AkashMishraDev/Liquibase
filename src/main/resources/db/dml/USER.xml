@@ -1,0 +1,24 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.3.xsd">
+                   
+                   
+<changeSet author="akash.mishra" id="0412">
+        <insert tableName="USER">
+            <column name="ID" value="1"/>
+            <column name="NAME" value="Akash"/>
+            <column name="NUMBER" value="01A"/>
+            <column name="PROFILE_IMAGE" value="Akash.jpeg"/>
+        </insert>
+</changeSet>
+    <changeSet author="akash.mishra" id="2201221222">
+        <insert tableName="USER">
+            <column name="ID" value="2"/>
+            <column name="NAME" value="AkashMishra"/>
+            <column name="NUMBER" value="872838389"/>
+            <column name="PROFILE_IMAGE" value="Akash"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
+ 

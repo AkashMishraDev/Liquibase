@@ -1,0 +1,28 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+                   
+    <changeSet author="akash.mishra" id="041220222111">
+        <createTable tableName="USER">
+            <column name="ID" type="VARCHAR(255)">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="NAME" type="VARCHAR(255)"/>
+            <column name="NUMBER" type="VARCHAR(20)"/>
+            <column name="PROFILE_IMAGE" type="VARCHAR(20)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="akash.mishra" id="041220222222">
+        <createTable tableName="HOTEL">
+            <column name="ID" type="VARCHAR(255)">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="NAME" type="VARCHAR(255)"/>
+            <column name="NUMBER" type="VARCHAR(20)"/>
+            <column name="PROFILE_IMAGE" type="VARCHAR(20)"/>
+        </createTable>
+    </changeSet>
+                   
+</databaseChangeLog>

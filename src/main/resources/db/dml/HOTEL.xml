@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog          http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.3.xsd">
+
+
+    <changeSet author="akash.mishra" id="04122222">
+        <insert tableName="HOTEL">
+            <column name="ID" value="1"/>
+            <column name="NAME" value="Akash"/>
+            <column name="NUMBER" value="01A"/>
+            <column name="PROFILE_IMAGE" value="Akash.jpeg"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
